@@ -1,0 +1,75 @@
+<resources>
+    <color name="green">#1E9B4F</color>
+    <color name="black">#000000</color>
+    <color name="gray">#F2F2F2</color>
+    <color name="green_primary">#3DA64A</color>
+    <color name="gray_light">#F2F2F2</color>
+
+    <color name="danger">#FF7F7F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="brand_primary">#3D1E6D</color>
+    <color name="brand_primary_variant">#2E1553</color>
+    <color name="brand_accent">#4F7BFF</color>
+    <color name="red">#F44336</color>
+
+    <color name="green_approved">#C8E6C9</color>
+    <color name="red_rejected">#FFCDD2</color>
+        <!-- Surface / background -->
+        <color name="color_background">#FFFFFF</color>
+        <color name="color_surface">#F8F8FC</color>      <!-- CardSurface: subtle tint -->
+        <color name="color_on_primary">#FFFFFF</color>
+        <color name="color_on_background">#0B0B10</color>
+        <color name="color_on_surface">#111118</color>
+
+        <!-- Text -->
+        <color name="text_primary">#0B0B10</color>
+        <color name="text_secondary">#6B6B7A</color>
+
+        <!-- Status -->
+        <color name="status_pending">#FFD54F</color>
+        <color name="status_approved">#4CAF50</color>
+        <color name="status_rejected">#F44336</color>
+
+        <!-- Buttons / controls -->
+        <color name="btn_text_on_primary">#FFFFFF</color>
+        <color name="btn_bg_disabled">#DAD8E8</color>
+
+        <!-- Elevation shadows (tints) -->
+        <color name="shadow_overlay">#1A000000</color>
+    <color name="md_theme_primary">#245B9E</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primary_container">#E7EEFF</color>
+
+    <!-- Secondary / accents -->
+    <color name="md_theme_secondary">#00A896</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+
+    <!-- Status -->
+    <color name="success">#2E7D32</color>
+    <color name="error_tonal">#D96B6B</color>
+    <color name="error">#B00020</color>
+
+    <!-- Pending (subtle soft yellow) -->
+    <color name="yellow_pending">#F2C94C</color>
+    <color name="yellow_pending_tint">#F7D97A</color>
+    <color name="purple_100">#E1BEE7</color>
+
+    <!-- Surface / text -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F6F8FA</color>
+    <color name="on_surface">#1F2937</color>
+    <color name="muted">#6B7280</color>
+    <color name="divider">#E6E9EE</color>
+
+    <!-- Auxiliary -->
+    <color name="ic_tint">#374151</color>
+    <color name="md_blue_700">#1E88E5</color>
+    <color name="md_blue_500">#2196F3</color>
+    <color name="md_blue_200">#90CAF9</color>
+    <color name="primary">#1E88E5</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="chip_outline">#D1E9FF</color>
+    <color name="chip_text">#075985</color>
+    <color name="card_shadow">#0A000000</color>
+</resources>

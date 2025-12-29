@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gatepass Detail"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <!-- Status pill -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PENDING"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Student Info block -->
+        <TextView
+            android:text="Student Information"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvName" android:layout_marginTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Name: -" />
+        <TextView android:id="@+id/tvEnrollment" android:layout_marginTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Enrollment No: -" />
+        <TextView android:id="@+id/tvDepartment" android:layout_marginTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Department: -" />
+        <TextView android:id="@+id/tvYear" android:layout_marginTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Year: -" />
+        <TextView android:id="@+id/tvMobile" android:layout_marginTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mobile: -" />
+
+        <!-- Request Info block -->
+        <TextView
+            android:text="Request Information"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvReason" android:layout_marginTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Reason: -"/>
+        <TextView android:id="@+id/tvDestination" android:layout_marginTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Destination: -"/>
+        <TextView android:id="@+id/tvFromTo" android:layout_marginTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Date: -"/>
+        <TextView android:id="@+id/tvCreatedAt" android:layout_marginTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Submitted: -"/>
+
+        <!-- Optional remarks / approvedBy -->
+        <TextView android:id="@+id/tvApprovedBy" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Approved By: -"/>
+
+        <!-- Actions -->
+        <LinearLayout
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnApprove"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:text="Approve"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="@color/green_primary"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btnReject"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:text="Reject"
+                android:backgroundTint="@color/danger"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240376111440",
+    "project_id": "egatepass-56dc8",
+    "storage_bucket": "egatepass-56dc8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240376111440:android:c174646ddace4bb0c0cc55",
+        "android_client_info": {
+          "package_name": "com.example.egatepass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnOOExWh0uLnL0lopqo5vdDMv7LAPyOsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

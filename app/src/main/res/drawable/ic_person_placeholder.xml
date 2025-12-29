@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+
+    <!-- circle background -->
+    <path android:fillColor="@color/md_theme_primary_container"
+        android:pathData="M24,2A22,22 0 1,0 46,24A22,22 0 0,0 24,2z"/>
+
+    <!-- person silhouette -->
+    <path android:fillColor="@color/md_theme_primary"
+        android:pathData="M24,24c3.9,0 7,-3.1 7,-7s-3.1,-7 -7,-7 -7,3.1 -7,7 3.1,7 7,7zM12,38c0,-5.5 7.2,-9 12,-9s12,3.5 12,9v1H12v-1z"/>
+</vector>
